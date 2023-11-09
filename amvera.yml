@@ -1,0 +1,11 @@
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.8
+build:
+  requirementsPath: /Users/dmitrijkornilov/Desktop/Test/Git /bot_test/requirements.txt
+run:
+  scriptName: /Users/dmitrijkornilov/Desktop/Test/Git /bot_test/bot_test.py
+  persistenceMount: /data
+  containerPort: 80
